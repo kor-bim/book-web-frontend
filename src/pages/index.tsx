@@ -1,11 +1,3 @@
-import { Button } from '@/components/atoms/Button'
-
 export default function Home() {
-  return (
-    <>
-      <Button variant={'red'} size={'lg'}>
-        안녕
-      </Button>
-    </>
-  )
+  return <div className={'flex flex-row justify-center items-center h-56'}></div>
 }
